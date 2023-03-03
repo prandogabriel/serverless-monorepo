@@ -1,6 +1,6 @@
+import config from "@commons/config/serverless";
 import type { AWS } from "@serverless/typescript";
 
-import config from "@commons/config/serverless";
 import resources from "./src/config/resources";
 import service from "./src/config/service";
 
