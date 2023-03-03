@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {},
+  "include": [
+    "./**/*.ts",
+    "../../commons/**/*.ts",
+    "src/handler.test.js"
+  ],
+  "exclude": [
+    "node_modules/**/*",
+    ".serverless/**/*",
+    "_warmup/**/*",
+    ".vscode/**/*"
+  ]
+}

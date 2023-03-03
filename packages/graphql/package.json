@@ -1,14 +1,17 @@
 {
-  "name": "example",
+  "name": "graphql",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Serverless lambda",
+  "main": "handler.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "serverless deploy",
+    "start": "serverless offline start --stage dev"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "dependencies": {
+    "apollo-server-lambda": "^2.16.1",
+    "app-monorepo": "workspace:^1.0.0",
+    "graphql": "^15.3.0"
+  },
   "devDependencies": {
     "@serverless/typescript": "^3.27.0",
     "@types/aws-lambda": "^8.10.106",
@@ -28,7 +31,6 @@
     "typescript": "^4.4.4",
     "webpack": "^5.75.0"
   },
-  "dependencies": {
-    "app-monorepo": "workspace:^1.0.0"
-  }
+  "author": "Miguel Frazao (https://github.com/jmpfrazao/aws-node-typescript-apollo-lambda)",
+  "license": "MIT"
 }
