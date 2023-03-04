@@ -6,6 +6,7 @@ importers:
     specifiers:
       '@commitlint/cli': ^13.1.0
       '@commitlint/config-conventional': ^13.1.0
+      '@serverless/typescript': ^3.27.0
       '@typescript-eslint/eslint-plugin': ^4.26.0
       '@typescript-eslint/parser': ^4.26.0
       babel-eslint: ^10.1.0
@@ -32,6 +33,7 @@ importers:
     devDependencies:
       '@commitlint/cli': 13.2.1
       '@commitlint/config-conventional': 13.2.0
+      '@serverless/typescript': 3.27.0
       '@typescript-eslint/eslint-plugin': 4.33.0_s2qqtxhzmb7vugvfoyripfgp7i
       '@typescript-eslint/parser': 4.33.0_jofidmxrjzhj7l6vknpw5ecvfe
       babel-eslint: 10.1.0_eslint@7.32.0

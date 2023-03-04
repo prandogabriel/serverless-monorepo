@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Gabriel Prando (https://github.com/gprando55/serverless-monorepo)",
+  "license": "MIT",
   "devDependencies": {
     "@serverless/typescript": "^3.27.0",
     "@types/aws-lambda": "^8.10.106",

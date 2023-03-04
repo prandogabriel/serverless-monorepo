@@ -9,7 +9,7 @@
     "build": "lerna run build",
     "test": "NODE_ENV=development lerna run test --stream"
   },
-  "author": "Gabriel Prando",
+  "author": "Gabriel Prando (https://github.com/gprando55/serverless-monorepo)",
   "license": "ISC",
   "private": true,
   "husky": {
@@ -21,8 +21,10 @@
   "devDependencies": {
     "@commitlint/cli": "^13.1.0",
     "@commitlint/config-conventional": "^13.1.0",
+    "@serverless/typescript": "^3.27.0",
     "@typescript-eslint/eslint-plugin": "^4.26.0",
     "@typescript-eslint/parser": "^4.26.0",
+    "babel-eslint": "^10.1.0",
     "eslint": "^7.27.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^8.3.0",
@@ -33,16 +35,15 @@
     "eslint-plugin-simple-import-sort": "^8.0.0",
     "eslint-plugin-sonarjs": "^0.18.0",
     "husky": "^7.0.0",
+    "lerna": "^4.0.0",
     "lint-staged": "^11.1.0",
+    "npm-run-all": "^4.1.5",
     "prettier": "^2.3.0",
     "ts-node": "^10.9.1",
     "ts-node-dev": "^2.0.0",
     "tsconfig-paths": "^3.10.1",
-    "typescript": "^4.4.4",
-    "babel-eslint": "^10.1.0",
-    "lerna": "^4.0.0",
-    "npm-run-all": "^4.1.5",
     "tsconfig-paths-jest": "^0.0.1",
+    "typescript": "^4.4.4",
     "wait-on": "^5.3.0"
   },
   "workspaces": [
