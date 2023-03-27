@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "SLS_DEBUG=* pnpm sls offline --reloadHandler --stage dev"
   },
   "keywords": [],
   "author": "Gabriel Prando (https://github.com/gprando55/serverless-monorepo)",
