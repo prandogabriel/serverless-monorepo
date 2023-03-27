@@ -1,8 +1,8 @@
 import { ApolloServer, IResolvers } from "apollo-server-lambda";
 
-import * as mutations from "./resolvers/mutations";
-import * as queries from "./resolvers/queries";
-import typeDefs from "./type-defs";
+import * as mutations from "../../../../graphql/resolvers/mutations";
+import * as queries from "../../../../graphql/resolvers/queries";
+import typeDefs from "../../../../graphql/type-defs";
 
 const { NODE_ENV } = process.env;
 
